@@ -18,6 +18,8 @@
      crossorigin="anonymous">
      <link rel="stylesheet" href="style/style.css">
     <title>Projeto CRUD - PHP/JS</title>
+
+    <link rel="short icon" href="../IMG/cinetec.ico">
 </head>
 
 <body>

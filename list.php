@@ -56,7 +56,7 @@ $dados = "<div class='table-responsive'>
 
 while($row_usuario = $result_usuarios->fetch(PDO::FETCH_ASSOC)){ //Estrutura para selecionar as informações(Colunas) da tabela do BD 
 
-    extract($row_usuario); //Para converter os valores do Array Assoc row_usuario(colunas do BD) em variáveis.
+    extract($row_usuario); //Para converter os valores do Array Assoc row_usuario(colunas da tabela no  BD) em variáveis.
     $dados .= "<tr>
 
                     <td>#$id_usuario</td>
